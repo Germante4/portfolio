@@ -736,3 +736,10 @@ h3{ margin: 0; font-size: 18px; }
 .thumb-iframe{
   border-radius: inherit;
 }
+.brand__logo{
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  display: block;
+}
+
