@@ -69,32 +69,32 @@ const projects = [
   {
     id: "beautym",
     type: "landing",
-    title: "Glow by Lina",
+    title: "Beauty Master",
     badge: "Landing",
     accent: "beauty",
-    desc: "Instagram-first beauty specialist landing su gallery grid ir accordion kainomis.",
-    bullets: ["IG-style grid", "Accordion prices", "Responsive menu"],
-    live: "https://698d43c8eb3672ae80ce5376--beautym.netlify.app"
+    desc: "Landing page grožio meistrui / salonui (clean UI, responsive).",
+    bullets: ["Clean layout", "Responsive", "CTA focused"],
+    live: "https://germante4.github.io/Beauty-master/"
   },
   {
     id: "noirframe",
     type: "landing",
-    title: "NoirFrame Studio",
+    title: "Photographer Master",
     badge: "Landing",
     accent: "photo",
-    desc: "Cinematic fotografo puslapis: dark editorial stilius + hero nuotraukų perėjimas.",
-    bullets: ["Hero crossfade", "Packages + process", "Editorial spacing"],
-    live: "https://nimble-praline-565a2b.netlify.app"
+    desc: "Fotografo landing/portfolio (modernus išdėstymas, aiškūs CTA).",
+    bullets: ["Portfolio layout", "Modern UI", "Responsive"],
+    live: "https://germante4.github.io/Photographer-master/"
   },
   {
     id: "recipes",
     type: "website",
-    title: "Mano Receptai",
+    title: "Recipes",
     badge: "Website",
     accent: "recipes",
-    desc: "Receptų svetainė su kategorijomis ir UI funkcijomis. Didesnis layout’as.",
-    bullets: ["Categories", "Cards + side blocks", "Search / settings"],
-    live: "https://698d3cd6763d6d8a6290a3ab--kaleidoscopic-entremet-479066.netlify.app"
+    desc: "Receptų svetainė (daugiau turinio, sekcijos, layout).",
+    bullets: ["Content layout", "Cards/sections", "Responsive"],
+    live: "https://germante4.github.io/Recipes/"
   },
   {
     id: "lume",
@@ -102,11 +102,12 @@ const projects = [
     title: "Lumé Beauty Studio",
     badge: "Landing",
     accent: "lume",
-    desc: "Clean luxury salon landing su aiškiom sekcijom ir booking modal flow.",
-    bullets: ["Luxury UI", "Services + reviews", "Booking modal"],
-    live: "https://majestic-naiad-c9100d.netlify.app"
+    desc: "Clean luxury salon landing su aiškiom sekcijom ir modal flow.",
+    bullets: ["Luxury UI", "Services + reviews", "Modal"],
+    live: "https://germante4.github.io/Lume-Beauty-Studio/"
   }
 ];
+
 
 // Build projects grid
 const grid = document.getElementById("projectsGrid");
@@ -129,7 +130,7 @@ grid.innerHTML = projects.map(p => `
       <div class="pactions">
         <button class="btn btn--ghost" type="button" data-preview="${p.id}">Preview</button>
         <a class="btn btn--primary" href="${p.live}" target="_blank" rel="noopener">Live</a>
-        <a class="btn btn--ghost" href="#" aria-disabled="true" title="Add GitHub later">Code</a>
+    
       </div>
     </div>
   </article>
