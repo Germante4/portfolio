@@ -742,4 +742,86 @@ h3{ margin: 0; font-size: 18px; }
   object-fit: contain;
   display: block;
 }
+/* =========================
+   MOBILE POLISH (clean luxury)
+   ========================= */
 
+/* 1) Stop horizontal scrolling if something overflows */
+html, body { overflow-x: hidden; }
+
+/* 2) Make header behave nicer on narrow screens */
+@media (max-width: 760px) {
+  .nav { gap: 10px; }
+  .actions { gap: 8px; }
+  .btn { padding: 10px 14px; font-size: 13px; }
+}
+
+/* 3) Better hero spacing on mobile */
+@media (max-width: 600px) {
+  .container { width: min(100% - 24px, var(--container)); } /* smaller side padding */
+  .hero { padding: 18px 0 10px; }
+
+  .hero-left { padding: 22px 18px; } /* was 34px 32px */
+  h1 { font-size: 34px; line-height: 1.08; } /* stable mobile size */
+  .hero-sub { font-size: 15px; }
+
+  .hero-image { min-height: 260px; } /* make image not too tall */
+  .hero-badge { left: 12px; bottom: 12px; max-width: 85%; }
+
+  /* Make CTA buttons feel premium on mobile */
+  .hero-cta .btn { width: 100%; }
+}
+
+/* 4) Make section headers stack nicely */
+@media (max-width: 600px) {
+  .section-head {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .section-head p { max-width: 100%; }
+}
+
+/* 5) Pills (rating/location/hours) - make them calmer */
+@media (max-width: 600px) {
+  .hero-meta { gap: 10px; }
+  .pill { width: 100%; justify-content: space-between; }
+}
+
+/* 6) Cards spacing */
+@media (max-width: 600px) {
+  section { padding: 38px 0; }
+  .card { padding: 16px; }
+}
+
+/* 7) CTA section buttons */
+@media (max-width: 600px) {
+  .cta { padding: 18px; }
+  .cta .cta-actions .btn { width: 100%; }
+}
+
+/* 8) Contact: keep lines readable */
+@media (max-width: 600px) {
+  .info .line div { flex-direction: column; align-items: flex-start; }
+  .info .line span { padding-top: 2px; }
+}
+
+/* 9) Modal: nicer on small screens */
+@media (max-width: 520px) {
+  .modal-card { border-radius: 18px; }
+  .modal-head { padding: 14px 14px 10px; }
+  .modal-body { padding: 12px 14px 14px; }
+}
+@media (max-width: 760px) {
+  .links { display: none; }   /* kaip ir dabar */
+  .menu-btn { display: inline-grid; place-items: center; }
+
+  /* paliekam tik 2 dalykus: menu + book */
+  .btn-ghost[data-open-booking] { display: none; }  /* View Prices off */
+  
+  /* jei norėtum net mažiau: paslėpti brand tekstą ir palikti tik logo */
+  /* .brand .name { font-size: 16px; } */
+}
+@media (max-width: 760px) {
+  .header { position: static; }
+}
