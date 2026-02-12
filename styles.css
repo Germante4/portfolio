@@ -825,3 +825,21 @@ html, body { overflow-x: hidden; }
 @media (max-width: 760px) {
   .header { position: static; }
 }
+/* Default: abu matosi (desktop) */
+.btn-theme { display: inline-flex; }
+.btn-work  { display: inline-flex; }
+
+/* Nuo ~900px ir mažiau: paliekam 2 (tema + žiūrėti darbus) – čia realiai nieko neslepiam,
+   bet jei turi daugiau mygtukų, čia gali paslėpti kitus */
+@media (max-width: 900px){
+  /* pvz. jei yra dar kažkas – paslėpk čia */
+}
+
+/* Nuo ~520px ir mažiau: paliekam tik "Žiūrėti darbus" */
+@media (max-width: 520px){
+  .btn-theme { display: none; }
+}
+@media (max-width: 520px){
+  .btn-work { width: 100%; justify-content: center; }
+}
+
