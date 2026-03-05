@@ -111,7 +111,7 @@ const projects = [
     type: "landing",
     title: "Parfórmer",
     badge: "Landing",
-    accent: "pilates",
+    accent: "pilatesas",
     desc: "Luxury-style landing page (premium typography, calm layout, responsive).",
     bullets: ["Luxury UI", "Smooth sections", "Responsive"],
     live: "https://germante4.github.io/Parf-rmer/"
