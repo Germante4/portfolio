@@ -1,13 +1,12 @@
 <!doctype html>
-<html lang="lt">
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Portfolio</title>
     <link rel="icon" type="image/png" href="logo.png">
-    <meta name="description"
-        content="Asmeninė portfolio svetainė: apie mane, projektai, įgūdžiai, paslaugos ir kontaktai." />
+    <meta name="description" content="Personal portfolio website: about me, projects, skills, services, and contact." />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
@@ -37,78 +36,77 @@
                 </span>
             </a>
 
-            <nav class="links" aria-label="Navigacija">
-                <a href="#about">Apie</a>
-                <a href="#projects">Projektai</a>
-                <a href="#skills">Įgūdžiai</a>
-                <a href="#services">Paslaugos</a>
-                <a href="#contact">Kontaktai</a>
+            <nav class="links" aria-label="Primary navigation">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
             </nav>
 
             <div class="actions">
-                <button class="btn btn--ghost btn-theme" id="themeBtn" type="button" aria-label="Keisti temą">
-                    <span class="dot" aria-hidden="true"></span> Tema
+                <button class="btn btn--ghost btn-theme" id="themeBtn" type="button" aria-label="Toggle theme">
+                    <span class="dot" aria-hidden="true"></span> Theme
                 </button>
 
                 <a class="btn btn--primary btn-work" href="#projects">
-                    Žiūrėti darbus
+                    View work
                 </a>
 
-                <button class="icon-btn btn-menu" id="menuBtn" type="button" aria-label="Atidaryti meniu">
+                <button class="icon-btn btn-menu" id="menuBtn" type="button" aria-label="Open menu">
                     ☰
                 </button>
             </div>
-
         </div>
 
         <div class="mobile" id="mobileMenu" aria-hidden="true">
-            <a class="mobile__link" href="#about">Apie</a>
-            <a class="mobile__link" href="#projects">Projektai</a>
-            <a class="mobile__link" href="#skills">Įgūdžiai</a>
-            <a class="mobile__link" href="#services">Paslaugos</a>
-            <a class="mobile__link" href="#contact">Kontaktai</a>
-            <a class="btn btn--primary mobile__cta" href="#projects">Žiūrėti darbus</a>
+            <a class="mobile__link" href="#about">About</a>
+            <a class="mobile__link" href="#projects">Projects</a>
+            <a class="mobile__link" href="#skills">Skills</a>
+            <a class="mobile__link" href="#services">Services</a>
+            <a class="mobile__link" href="#contact">Contact</a>
+            <a class="btn btn--primary mobile__cta" href="#projects">View work</a>
         </div>
     </header>
 
     <main>
-        <!-- HERO: -->
+        <!-- HERO -->
         <section class="hero">
             <div class="container hero__grid">
                 <div class="hero__left reveal">
                     <div class="pill-row">
-                        <span class="pill">Projektai nedidelėms svetainėms</span>
+                        <span class="pill">Web projects for small businesses</span>
                         <span class="pill pill--muted">HTML • CSS • JS</span>
                     </div>
 
                     <h1>
-                        Kuriu švarias ir modernias
-                        <span class="grad">front-end</span> svetaines.
+                        I build clean and modern
+                        <span class="grad">front-end</span> websites.
                     </h1>
 
                     <p class="lead">
-                        Mane labiausiai žavi tvarkinga struktūra, tipografija ir “premium” UI detalės.
-                        Darau landing’us, mini svetaines paslaugoms ir portfolio puslapius — viskas responsive ir
-                        tvarkinga.
+                        I love clean structure, typography, and premium UI details.
+                        I create landing pages, small service websites, and portfolio pages — fully responsive and
+                        polished.
                     </p>
 
                     <div class="hero__cta">
-                        <a class="btn btn--primary" href="#contact">Susisiekti</a>
-                        <a class="btn btn--ghost" href="#projects">Peržiūrėti projektus</a>
-                        <a class="link" href="#about">Trumpai apie mane →</a>
+                        <a class="btn btn--primary" href="#contact">Contact me</a>
+                        <a class="btn btn--ghost" href="#projects">See projects</a>
+                        <a class="link" href="#about">A quick intro →</a>
                     </div>
 
                     <div class="stats">
-                        <div class="stat"><b>4</b><span>live projektai</span></div>
+                        <div class="stat"><b>4</b><span>live projects</span></div>
                         <div class="stat"><b>UI</b><span>accordion • modal • transitions</span></div>
                         <div class="stat"><b>Mobile-first</b><span>responsive layout</span></div>
                     </div>
                 </div>
 
-                <aside class="hero__right reveal" aria-label="Profilis">
+                <aside class="hero__right reveal" aria-label="Profile">
                     <div class="profile">
                         <div class="photo-wrap">
-                            <img class="photo" src="me.jpg" alt="Mano nuotrauka"
+                            <img class="photo" src="me.jpg" alt="My photo"
                                 onerror="this.style.display='none'; this.parentElement.classList.add('photo-fallback')" />
                             <div class="photo-fallback-ui" aria-hidden="true">
                                 <div class="circle"></div>
@@ -128,15 +126,15 @@
                             <div class="profile__line"></div>
 
                             <div class="profile__grid">
-                                <div class="kv"><b>Stilius</b><span>clean, modern, premium</span></div>
-                                <div class="kv"><b>Fokusas</b><span>svetainės / UI</span></div>
+                                <div class="kv"><b>Style</b><span>clean, modern, premium</span></div>
+                                <div class="kv"><b>Focus</b><span>websites / UI</span></div>
                                 <div class="kv"><b>Deploy</b><span>GitHub Pages</span></div>
-                                <div class="kv"><b>Kontaktas</b><span>email / Facebook</span></div>
+                                <div class="kv"><b>Contact</b><span>email / Facebook</span></div>
                             </div>
 
                             <div class="profile__actions">
-                                <a class="btn btn--ghost btn--sm" href="#services">Ką galiu padaryti</a>
-                                <a class="btn btn--primary btn--sm" href="#contact">Parašyk</a>
+                                <a class="btn btn--ghost btn--sm" href="#services">What I can do</a>
+                                <a class="btn btn--primary btn--sm" href="#contact">Message me</a>
                             </div>
                         </div>
                     </div>
@@ -159,21 +157,22 @@
         <section class="section" id="about">
             <div class="container">
                 <div class="head reveal">
-                    <h2>Apie mane</h2>
+                    <h2>About</h2>
                     <p class="muted about-lead">
-                        Kuriu modernias, švarias ir “premium” jausmo svetaines — daug dėmesio skiriu struktūrai,
-                        tipografijai ir subtilioms interakcijoms.
+                        I build modern, clean, premium-feel websites — with strong focus on structure, typography,
+                        and subtle interactions.
                     </p>
                 </div>
+
                 <div class="about-stack">
-                    <!-- Kryptis -->
+                    <!-- Direction -->
                     <article class="card about-main reveal">
-                        <div class="kicker">Kryptis</div>
+                        <div class="kicker">Direction</div>
                         <h3 class="about-title">Front-end / Web • Clean UI</h3>
 
                         <p class="muted">
-                            Mano tikslas - sukurti švarią, ramią ir vizualiai tvarkingą svetainę, kuriose svarbiausia
-                            aiški struktūra ir subtilios detalės.
+                            My goal is to create calm, visually clean websites where the most important things are
+                            clear structure and refined details.
                         </p>
 
                         <div class="about-tags">
@@ -185,65 +184,62 @@
                         </div>
                     </article>
 
-                    <!-- Procesas -->
+                    <!-- Process -->
                     <article class="card about-process reveal">
-                        <div class="kicker">Procesas</div>
-                        <h3>Kaip gimsta puslapis ?</h3>
+                        <div class="kicker">Process</div>
+                        <h3>How a website is made</h3>
 
                         <ol class="steps">
                             <li class="step">
                                 <span class="step-n">01</span>
                                 <div class="step-b">
-                                    <b>Susipažinimas</b>
-                                    <p class="muted">Trumpai aptariame tavo veiklą, puslapio tikslą ir ko iš jo tikiesi.
-                                    </p>
+                                    <b>Discovery</b>
+                                    <p class="muted">We quickly align on your niche, goals, and what the website should
+                                        achieve.</p>
                                 </div>
                             </li>
 
                             <li class="step">
                                 <span class="step-n">02</span>
                                 <div class="step-b">
-                                    <b>Struktūra ir dizainas</b>
-                                    <p class="muted">Parengiu puslapio struktūrą, stilių ir pirmą vizualią kryptį
-                                        peržiūrai.</p>
+                                    <b>Structure & design</b>
+                                    <p class="muted">I prepare the layout, style, and first visual direction for review.
+                                    </p>
                                 </div>
                             </li>
 
                             <li class="step">
                                 <span class="step-n">03</span>
                                 <div class="step-b">
-                                    <b>Sukūrimas ir korekcijos</b>
-                                    <p class="muted">Sukuriu puslapį, kartu peržiūrime ir pakoreguojame detales.</p>
+                                    <b>Build & refine</b>
+                                    <p class="muted">I build the site, we review together, and refine the details.</p>
                                 </div>
                             </li>
 
                             <li class="step">
                                 <span class="step-n">04</span>
                                 <div class="step-b">
-                                    <b>Įkėlimas į internetą</b>
-                                    <p class="muted">Puslapį įkeliu live į Netlify — gali iš karto juo naudotis.</p>
+                                    <b>Launch</b>
+                                    <p class="muted">I deploy it live (Netlify) — ready to use immediately.</p>
                                 </div>
                             </li>
                         </ol>
                     </article>
                 </div>
-
-
             </div>
         </section>
-
 
         <!-- PROJECTS -->
         <section class="section" id="projects">
             <div class="container">
                 <div class="head head-row reveal">
                     <div>
-                        <h2>Projektai</h2>
-                        <p class="muted">Live demo + trumpi akcentai. “Preview” atidaro viduje.</p>
+                        <h2>Projects</h2>
+                        <p class="muted">Live demo + short highlights. “Preview” opens inside.</p>
                     </div>
 
                     <div class="filters">
-                        <button class="chip is-active" data-filter="all" type="button">Visi</button>
+                        <button class="chip is-active" data-filter="all" type="button">All</button>
                         <button class="chip" data-filter="landing" type="button">Landing</button>
                         <button class="chip" data-filter="website" type="button">Website</button>
                     </div>
@@ -257,8 +253,8 @@
         <section class="section" id="skills">
             <div class="container">
                 <div class="head reveal">
-                    <h2>Įgūdžiai</h2>
-                    <p class="muted">Trumpai, be “fluff” — ką realiai naudoju.</p>
+                    <h2>Skills</h2>
+                    <p class="muted">Short and practical — what I actually use.</p>
                 </div>
 
                 <div class="skills">
@@ -284,7 +280,7 @@
 
                     <div class="skill card reveal">
                         <h3>Deploy & workflow</h3>
-                        <p class="muted">Netlify deploy, greita iteracija, švarūs failai (HTML/CSS/JS).</p>
+                        <p class="muted">Netlify deploy, fast iterations, clean files (HTML/CSS/JS).</p>
                         <div class="tags">
                             <span class="tag">Netlify</span>
                             <span class="tag">GitHub (optional)</span>
@@ -300,7 +296,7 @@
         <section class="section" id="services">
             <div class="container">
                 <div class="head reveal">
-                    <h2>Paslaugos</h2>
+                    <h2>Services</h2>
                     <p class="muted"></p>
                 </div>
 
@@ -308,36 +304,36 @@
                     <article class="card reveal">
                         <div class="service-top">
                             <h3>Landing page</h3>
-                            <span class="badge">1–3 d.</span>
+                            <span class="badge">1–3 days</span>
                         </div>
                         <ul class="list">
-                            <li>Hero + paslaugos + social proof + kontaktai</li>
+                            <li>Hero + services + social proof + contact</li>
                             <li>Clean design, mobile-first</li>
-                            <li>CTA ir struktūra “kad parduotų”</li>
+                            <li>CTA and structure that convert</li>
                         </ul>
                     </article>
 
                     <article class="card reveal">
                         <div class="service-top">
                             <h3>Portfolio / personal site</h3>
-                            <span class="badge">3–7 d.</span>
+                            <span class="badge">3–7 days</span>
                         </div>
                         <ul class="list">
-                            <li>Pirmas ekranas apie tave (foto, kryptis)</li>
-                            <li>Projektų showcase + modal preview</li>
-                            <li>Kontaktai, paslaugos, įgūdžiai</li>
+                            <li>Strong intro section (photo, direction)</li>
+                            <li>Project showcase + modal preview</li>
+                            <li>Contact, services, skills</li>
                         </ul>
                     </article>
 
                     <article class="card reveal">
                         <div class="service-top">
                             <h3>Small business website</h3>
-                            <span class="badge">5–10 d.</span>
+                            <span class="badge">5–10 days</span>
                         </div>
                         <ul class="list">
-                            <li>2–5 puslapiai (Home, About, Services...)</li>
-                            <li>Modernus stilius + UI detalės</li>
-                            <li>Deploy į Netlify</li>
+                            <li>2–5 pages (Home, About, Services...)</li>
+                            <li>Modern style + UI details</li>
+                            <li>Deploy to Netlify</li>
                         </ul>
                     </article>
                 </div>
@@ -349,27 +345,27 @@
             <div class="container">
                 <div class="contact">
                     <div class="card contact-card reveal">
-                        <h2>Kontaktai</h2>
+                        <h2>Contact</h2>
                         <p class="muted">
-                            Parašyk: koks niche (pvz. beauty / photo / services), kokie puslapio blokai ir kokį stilių
-                            nori.
-                            Gali atsiųsti 2–3 pavyzdžius — padarysiu tavo versiją.
+                            Message me with: your niche (e.g., beauty / photo / services), the sections you need, and
+                            your preferred style.
+                            You can also send 2–3 examples — I’ll create your version.
                         </p>
 
                         <div class="lines">
                             <div><b>Email</b><span>budreckytegermante@gmail.com</span></div>
                             <div><b>Facebook</b><span>Germantė Budreckytė</span></div>
-                            <div><b>Lokacija</b><span>Vilnius / remote</span></div>
+                            <div><b>Location</b><span>Vilnius / remote</span></div>
                         </div>
 
                         <div class="contact-actions">
-                            <a class="btn btn--primary" href="mailto:budreckytegermante@gmail.com">Rašyti email</a>
-                            <a class="btn btn--ghost" href="#top">Į viršų</a>
+                            <a class="btn btn--primary" href="mailto:budreckytegermante@gmail.com">Send email</a>
+                            <a class="btn btn--ghost" href="#top">Back to top</a>
                         </div>
                     </div>
 
                     <div class="card contact-side reveal">
-                        <div class="side-title">Greitos nuorodos</div>
+                        <div class="side-title">Quick links</div>
                         <div class="side-links" id="quickLinks"></div>
                         <div class="divider"></div>
                     </div>
@@ -381,23 +377,23 @@
             <div class="container footer-row">
                 <div>© <span id="year"></span> Portfolio</div>
                 <div class="footer-links">
-                    <a href="#about">Apie</a>
-                    <a href="#projects">Projektai</a>
-                    <a href="#contact">Kontaktai</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
                 </div>
             </div>
         </footer>
     </main>
 
     <!-- Preview modal -->
-    <div class="modal" id="previewModal" role="dialog" aria-modal="true" aria-label="Projekto peržiūra">
+    <div class="modal" id="previewModal" role="dialog" aria-modal="true" aria-label="Project preview">
         <div class="modal-card">
             <div class="modal-head">
-                <div class="modal-title" id="modalTitle">Peržiūra</div>
+                <div class="modal-title" id="modalTitle">Preview</div>
                 <div class="modal-actions">
-                    <a class="btn btn--ghost btn--sm" id="openLiveBtn" href="#" target="_blank" rel="noopener">Atidaryti
+                    <a class="btn btn--ghost btn--sm" id="openLiveBtn" href="#" target="_blank" rel="noopener">Open
                         live</a>
-                    <button class="icon-btn icon-btn--sm" id="closeModal" type="button" aria-label="Uždaryti">✕</button>
+                    <button class="icon-btn icon-btn--sm" id="closeModal" type="button" aria-label="Close">✕</button>
                 </div>
             </div>
             <div class="modal-body">

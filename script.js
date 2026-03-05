@@ -105,6 +105,16 @@ const projects = [
     desc: "Clean luxury salon landing su aiškiom sekcijom ir modal flow.",
     bullets: ["Luxury UI", "Services + reviews", "Modal"],
     live: "https://germante4.github.io/Lume-Beauty-Studio/"
+  },
+  {
+    id: "parformer",
+    type: "landing",
+    title: "Parfórmer",
+    badge: "Landing",
+    accent: "pilates",
+    desc: "Luxury-style landing page (premium typography, calm layout, responsive).",
+    bullets: ["Luxury UI", "Smooth sections", "Responsive"],
+    live: "https://germante4.github.io/Parf-rmer/"
   }
 ];
 
