@@ -97,16 +97,6 @@ const projects = [
     live: "https://germante4.github.io/Recipes/"
   },
   {
-    id: "lume",
-    type: "landing",
-    title: "Lumé Beauty Studio",
-    badge: "Landing",
-    accent: "lume",
-    desc: "Clean luxury salon landing su aiškiom sekcijom ir modal flow.",
-    bullets: ["Luxury UI", "Services + reviews", "Modal"],
-    live: "https://germante4.github.io/Lume-Beauty-Studio/"
-  },
-  {
     id: "parformer",
     type: "landing",
     title: "Parfórmer",
@@ -115,6 +105,16 @@ const projects = [
     desc: "Luxury-style landing page (premium typography, calm layout, responsive).",
     bullets: ["Luxury UI", "Smooth sections", "Responsive"],
     live: "https://germante4.github.io/Parf-rmer/"
+  },
+    {
+    id: "karolinamakeupstyle",
+    type: "landing",
+    title: "Karolina Makeup Style",
+    badge: "Landing",
+    accent: "Makiažo ir auskarų vėrimo meistrė",
+    desc: "Luxury-style landing page (premium typography, calm layout, responsive).",
+    bullets: ["Luxury UI", "Smooth sections", "Responsive"],
+    live: "https://germante4.github.io/karolinamakeupstyle/"
   }
 ];
 
