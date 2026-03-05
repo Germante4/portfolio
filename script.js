@@ -111,7 +111,7 @@ const projects = [
     type: "landing",
     title: "Karolina Makeup Style",
     badge: "Landing",
-    accent: "Makiažo ir auskarų vėrimo meistrė",
+    accent: "makeup",
     desc: "Luxury-style landing page (premium typography, calm layout, responsive).",
     bullets: ["Luxury UI", "Smooth sections", "Responsive"],
     live: "https://germante4.github.io/karolinamakeupstyle/"
