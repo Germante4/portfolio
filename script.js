@@ -38,6 +38,7 @@ themeBtn?.addEventListener("click", () => {
   setTheme(isLight ? "dark" : "light");
 });
 
+
 // ==============================
 // Mobile menu
 // ==============================
@@ -84,7 +85,6 @@ document.addEventListener("click", (e) => {
 window.addEventListener("resize", () => {
   if (window.innerWidth > 760) closeMenu();
 });
-
 // ==============================
 // Mouse spot
 // ==============================
